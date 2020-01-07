@@ -2,11 +2,22 @@ function shout(string) {
   return string.toUpperCase()
 }
 
+shout ("hello")
+
 function whisper(string) {
   return string.toLowerCase()
 }
 
+whisper ("HELLO")
+
 function logShout(string) {
-  var uppercase = 'HELLO'
-  console.log(string.toUpperCase);
+  return console.log(string.toUpperCase())
 }
+
+logShout ("hello")
+
+function logWhisper(string) {
+  return console.log(string.toUpperCase())
+}
+
+logWhisper ("HELLO")
