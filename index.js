@@ -6,12 +6,12 @@ function whisper(string) {
   return string.toLowerCase()
 }
 
-function logShout(spy) {
+function logShout(string) {
   console.log(string.toUpperCase)
     spyOn('hello')
 }
 
-function logWhisper(spy) {
+function logWhisper(string) {
   console.log(string.toLowerCase)
     spyOn('HELLO')
 }
